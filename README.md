@@ -31,6 +31,7 @@ matriks_generator = [[1,0,0,0,0,1,1,1],
 
 code_dna = dna_code(generator_matrix=matriks_generator_1, constraints=['reverse'])
 code_dna
+```
 
 ## Contributing
 
