@@ -16,6 +16,7 @@ You can install the module usingcloce this repository and install it manually:
 git clone https://github.com/muharsyad/pydnacode.git
 cd pydnacode
 python setup.py install
+```
 
 ## Usege
 
