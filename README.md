@@ -22,6 +22,16 @@ python setup.py install
 
 Here is a quick example of how to use `pydnacod`:
 
+```python
+import pydnacode
+matriks_generator = [[1,0,0,0,0,1,1,1],
+                     [0,1,0,0,1,0,1,1],
+                     [0,0,1,0,1,1,0,1],
+                     [0,0,0,1,1,1,1,0]]
+
+code_dna = dna_code(generator_matrix=matriks_generator_1, constraints=['reverse'])
+code_dna
+
 ## Contributing
 
 Contributing are welcome! If you have any suggestions, feel free to fork the repository and submit a pull request, or open an issue for discussion.
